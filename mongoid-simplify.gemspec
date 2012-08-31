@@ -4,8 +4,8 @@ require File.expand_path('../lib/mongoid-simplify/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Sascha Wessel"]
   gem.email         = ["swessel@gr4yweb.de"]
-  gem.description   = %q{mongoid-simplify makes it simple again to connect to mongodb with mongoid}
-  gem.summary       = %q{mongoid-simplify makes it simple again to connect to mongodb with mongoid}
+  gem.description   = %q{makes it simple again to connect to mongodb with mongoid}
+  gem.summary       = %q{makes it simple again to connect to mongodb with mongoid}
   gem.homepage      = "http://github.com/gr4y/mongoid-simplify"
 
   gem.files         = `git ls-files`.split($\)
