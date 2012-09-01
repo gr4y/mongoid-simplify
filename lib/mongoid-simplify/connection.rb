@@ -27,7 +27,9 @@ module Mongoid::Simplify::Connection
 	end
 
 	def mongodb_host(uri)
-		"#{uri.host}:#{uri.port}"
+		host = uri.host
+		port = uri.port || "27017"
+		"#{host}:#{port}"
 	end
 
 	def mongodb_database(uri)
