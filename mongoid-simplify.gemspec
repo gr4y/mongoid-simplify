@@ -16,11 +16,10 @@ Gem::Specification.new do |gem|
   gem.version       = Mongoid::Simplify::VERSION
 
   # development
-  gem.add_development_dependency "yard", "~> 0.8.2.1"
-  gem.add_development_dependency "minitest", "~> 3.3.0"
-  gem.add_development_dependency "redcarpet"
+  gem.add_development_dependency "yard", "~> 0.8.3"
+  gem.add_development_dependency "minitest", "~> 4.1.0"
 
   # runtime
-  gem.add_dependency "mongoid", "~> 3.0.5"
+  gem.add_dependency "mongoid", "~> 3.0.9"
 
 end
